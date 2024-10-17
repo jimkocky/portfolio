@@ -1,0 +1,164 @@
+@font-face{
+    font-family: RobotoMono;
+    src: url(fonts/RobotoMono-VariableFont_wght.ttf)
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-family: RobotoMono;
+  }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.red{
+    color: #CC100D;
+}
+
+header{
+text-align: center;
+  }
+
+.nav{
+    margin: 1.5%;
+    font-size: 180%;
+    transition: color 0.5s ease;
+  }
+
+.nav:hover {
+    color: #CC100D;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    float: left;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+}
+
+.salute {
+    font-size: 450%;
+    text-align: center;
+}
+
+.welcome{
+    font-size: 300%;
+    text-align: left;
+}
+
+.title{
+    font-size: 300%;
+    text-align: right;
+    padding: 0;
+}
+
+.title .red, .welcome .bigger{
+    font-size: 150%;
+}
+
+.name {
+    font-size: 500%;
+    color: #CC100D;
+    text-align: center;
+    padding: 0;
+}
+
+.profession-r, .profession-l{
+    font-size: 440%;
+    color: #AAAAAA;
+}
+
+.profession-r{
+    margin-top: 1%;
+    text-align: right;
+}
+
+.profession-l{
+    text-align: left;
+}
+
+.container-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-message{
+    position: relative;
+    margin-top: 2.5%;
+    text-align: center;
+    width: 45%;
+}
+
+.professional-info{
+    position: relative;
+    margin-top: 1%;
+    text-align: center;
+    width: 55%;
+    border-top: solid white 6px;
+    transform-origin: center center;
+}
+
+footer{
+    text-align: center;
+}
+
+.section-title{
+    font-size: 350%;
+    margin: 2% 0 2.5% 10%
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+}
+
+.about-text{
+    width: 80%;
+    font-size: 200%;
+    text-align: center;
+    margin-top: 2.5%;
+}
+
+#Portfolio{
+    height: 2000px;
+}
+
+.portfolio-text{
+    width: 80%;
+    font-size: 200%;
+    text-align: center;
+    margin-top: 2.5%;
+}
+
+.portfolio-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-content{
+    margin-top: 10%;
+    align-items: center;
+}
+
+.portfolio-image{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.draggable-portfolio-image {
+    cursor: grab;
+}
