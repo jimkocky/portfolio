@@ -90,13 +90,6 @@ gsap.timeline()
         y: -30,
     })
 
-    .from(".social-link-x", {
-        delay: -0.25,
-        opacity: 0,
-        duration:0.5,
-        y: -30,
-    })
-
     .from(".social-link-gh", {
         delay: -0.25,
         opacity: 0,
