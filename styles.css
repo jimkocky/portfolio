@@ -196,14 +196,6 @@ section{
     background-image: url('images/social/Facebook_hover.png');
 }
 
-.social-icon.X {
-    background-image: url('images/social/X.png');
-}
-
-.social-icon.X:hover {
-    background-image: url('images/social/X_hover.png');
-}
-
 .social-icon.GitHub {
     background-image: url('images/social/GitHub.png');
 }
